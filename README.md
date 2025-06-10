@@ -1,3 +1,3 @@
 # blockchain
-hi
+kba course is a web application
 
