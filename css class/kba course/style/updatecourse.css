@@ -1,0 +1,59 @@
+ul{
+    list-style-type: none;
+    background-color: #ECDAEF;
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 450;
+    
+}
+
+ul img{
+    height: 40px;
+    margin-right: 950px;
+}
+ul li{
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #5D007C;
+
+}
+a:hover {
+  color: black;
+}
+
+.container{
+    background-color: #ECDAEF;
+    width:650px;
+    height: 530px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.container h2{
+    text-align: center;
+    color: #5D007C;
+}
+.container input[type="text"],select,textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container select{
+   background-color: rgb(236, 235, 235);
+}
+
+.container input[type="submit"]{
+    width: 100%;
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #9908a7;
+    color: white;
+}

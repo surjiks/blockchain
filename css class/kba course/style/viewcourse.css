@@ -1,0 +1,97 @@
+ul{
+    list-style-type: none;
+    background-color: #ECDAEF;
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 450;
+    
+}
+
+ul img{
+    height: 40px;
+    margin-right: 950px;
+}
+ul li{
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #5D007C;
+}
+a:hover {
+  color: black;
+}
+.container{
+    background-color: #ECDAEF;
+    width: 650px;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+}
+
+.container img{
+    height: 200px;
+}
+.main,.sub2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.list{
+    margin-top: -20px;
+}
+.list ul{
+    list-style-type: circle;
+    display: grid;
+    justify-content: left;
+    font-size: small;
+    line-height: 1;
+}
+
+.sub2, .p{
+    color: red;
+    font-weight: 700;
+}
+.sub2 input[type="submit"]{
+    padding: 2px 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #a923c4;
+    color: white;
+    border-radius: 5px;
+}
+.sub1, .h2, h3{
+ color:#5D007C
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+}
+.button .btn{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.btn a{
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding :5px 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn2 input[type="submit"]{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 25px;
+    
+}

@@ -1,0 +1,51 @@
+ul{
+    list-style-type: none;
+    background-color: #ECDAEF;
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 450;
+    
+}
+
+ul img{
+    height: 40px;
+    margin-right: 950px;
+}
+ul li{
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #5D007C;
+
+}
+a:hover {
+  color: black;
+}
+.container{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+    
+}
+.para{
+    color: #9117a7;
+}
+.mail img{
+    height: 25px;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 50%;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.mail a{
+    color: #9117a7;
+    text-decoration: none;
+}
