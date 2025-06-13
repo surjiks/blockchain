@@ -1,0 +1,45 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li, a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color: black;
+}
+.btn{
+    background-color: rgb(2, 132, 219);
+    padding: 10px 20px;
+
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+}
+.container{
+    text-align: center;
+    margin: 50px;
+}
+.container img{
+    height: 180px;
+    margin-top: 50px;
+    
+}
+.searchbtn{
+    margin-top: 50px;
+}
+.search{
+    border-color: rgb(2, 132, 219);
+    padding: 4px;
+}
+.btn2{
+    background-color: rgb(44, 197, 184);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+}

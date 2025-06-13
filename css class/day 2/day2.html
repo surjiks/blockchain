@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(221, 221, 221);
+        }
+        .column{
+            float:left;
+            width: 30%;
+            padding: 10px;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-left: 4px solid rgb(17, 150, 17);
+            text-align: center;
+            line-height: 25px;
+        }
+        .column img{
+            width: 380px;
+            height: 200px;
+            
+        }
+        img:hover{
+            opacity:0.5;
+        }
+        @media only screen and (max-width:900px){
+            .column{
+                width: 100%;
+                border: none;
+            }
+            .column p{
+                font-size: small;
+            }
+            h1{
+                text-align: center;
+            }
+            body{
+                background-color: rgb(138, 187, 187);
+            }
+            .column img{
+                width: 190px;
+                height: 120px;
+            }
+        }
+
+    </style>
+    
+<body>
+    <h1>COURSES</h1>
+    <div class="column">
+        <img src="deb.png" alt="">
+        <p><span style="font-size: large; font-weight: bold;">DEVELOPER ESSENTIALS FOR BLOCKCHAIN</span> <BR>The “Developer Essentials for Blockchain” course is designed as a bridge for individuals with fundamental programming knowledge who plan to develop applications in the blockchain space. The course aims to help learners understand the integrated working of various technologies commonly used in blockchain development, including front-end development, back-end development, databases, containers, and Git.</p>
+    </div>
+        <div class="column">
+        <img src="CENA.png" alt="">
+        <p><span style="font-size: large; font-weight: bold;">CERTIFIED ETHERIUM NETWORK ADMINISTRATOR</span> <BR> Dive deep into the world of Ethereum-based blockchain networks with our comprehensive course. Designed for those passionate about blockchain exploration and experimentation, this course offers theoretical knowledge and practical application. .</p>
+    </div>  
+      <div class="column">
+        <img src="SEG.png" alt="">
+        <p><span style="font-size: large; font-weight: bold;">SEG ACCREDITED CERTIFIED BLOCKCHAIN ASSOCIATE</span> <BR>Blockchain technology is rapidly transforming industries worldwide. The Certified Blockchain Associate (CBA) Program is an easy gateway to a quick introduction to blockchain fundamentals and the foundation for the more advanced blockchain development courses. </p>
+    </div>
+
+
+ 
+</body>
+</html>

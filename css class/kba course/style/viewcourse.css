@@ -6,6 +6,7 @@ ul{
     justify-content: end;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 450;
+   
     
 }
 
@@ -38,10 +39,12 @@ a:hover {
     height: 200px;
 }
 .main,.sub2{
-    display: flex;
-    justify-content: space-between;
+     display: flex;
     padding: 10px;
     align-items: center;
+}
+.main{
+    justify-content: space-between;
 }
 
 .list{
@@ -59,13 +62,14 @@ a:hover {
     color: red;
     font-weight: 700;
 }
-.sub2 input[type="submit"]{
+.sub2 input{
     padding: 2px 10px;
     width: 100px;
     height: 30px;
     background-color: #a923c4;
     color: white;
     border-radius: 5px;
+    border: none;
 }
 .sub1, .h2, h3{
  color:#5D007C
@@ -88,10 +92,11 @@ a:hover {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.btn2 input[type="submit"]{
+.btn2{
     background-color: red;
     border-radius: 20px;
     color: white;
     padding: 5px 25px;
+    border: none;
     
 }
