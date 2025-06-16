@@ -1,0 +1,78 @@
+.calc{
+    width: 430px;
+    height: 500px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.buttons{
+    
+    display: grid;
+grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
+ grid-template-rows: repeat(5, 60px);    /*we can divide rows and colums using these 2 ways */
+ padding: 8px;
+ 
+}
+.buttons button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    border-radius: 10px;
+}
+.plusbtn {
+    grid-row: span 2;
+}
+
+.plusbtn button{
+        height: 110px;
+}
+.hidebtn button{
+    background-color: black;
+    border: none;
+}
+.btnclr button{
+    background-color: rgb(179, 179, 179);
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+    
+}
+.head p{
+    font-size: small;
+}
+.display{
+    background-color: #6e6d6d;
+    width: 85%;
+    height: 70px;
+    margin-left: 20px;
+    border: 10px solid;
+    border-color: rgb(191, 194, 196);
+    border-radius: 10px;
+    margin-top: -15px;
+    
+}
+.display p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: xx-large;
+}
+.head2 p{
+    color: white;
+}
+.head2{
+    display: flex;
+    justify-content: space-around;
+}
+.dummy button{
+    font-size: xx-small;
+    text-align: center;
+    height: 35px;
+    width: 60px;
+}
