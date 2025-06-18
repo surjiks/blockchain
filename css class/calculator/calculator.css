@@ -1,6 +1,6 @@
 .calc{
-    width: 430px;
-    height: 500px;
+    width: 510px;
+    height: 560px;
     border: 1px solid;
     margin: auto;
     margin-top: 100px;
@@ -10,29 +10,27 @@
 .buttons{
     
     display: grid;
-grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
- grid-template-rows: repeat(5, 60px);    /*we can divide rows and colums using these 2 ways */
- padding: 8px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
+    grid-template-rows: repeat(5, 70px);    /*we can divide rows and colums using these 2 ways */
+    padding: 8px;
  
 }
 .buttons button{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     color: white;
     background-color: #333;
     border-radius: 10px;
+    font-size: large;
 }
 .plusbtn {
     grid-row: span 2;
 }
 
 .plusbtn button{
-        height: 110px;
+        height: 130px;
 }
-.hidebtn button{
-    background-color: black;
-    border: none;
-}
+
 .btnclr button{
     background-color: rgb(179, 179, 179);
 }
@@ -73,6 +71,19 @@ grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
 .dummy button{
     font-size: xx-small;
     text-align: center;
-    height: 35px;
+    height: 40px;
     width: 60px;
+}
+.buttons button:active{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.hidebtn{
+        grid-column: span 3;
+}
+.hidebtn button{
+    width: 180px;
+    height: 40px;
+    background-color: #cf873462;
+
 }
